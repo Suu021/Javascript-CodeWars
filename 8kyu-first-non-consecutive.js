@@ -6,8 +6,6 @@ function firstNonConsecutive (arr) {
         }
         cont++
     }
-    console.log(arr.length-1)
-    console.log(cont-1) 
     if (arr[arr.length-1] == cont-1){
         return null
     }
